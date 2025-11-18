@@ -55,6 +55,15 @@ Version: 1.0.0
   -o-border-radius: 16px;
 }
 
+.footerebtn.box-style.first-box::before {
+  background-color: #fff;
+}
+
+.footerebtn.box-style.first-box:hover i,
+.footerebtn.box-style.first-box:hover {
+  color: #000 !important;
+}
+
 .common-btn {
   position: relative;
   padding: 15px 29px;
